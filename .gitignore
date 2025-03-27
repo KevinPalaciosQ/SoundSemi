@@ -1,0 +1,3 @@
+/Node/node_modules
+**.env
+/Node/S3_accessKeys.csv

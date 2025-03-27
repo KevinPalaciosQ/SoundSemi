@@ -1,0 +1,157 @@
+/* Ocultar el círculo por defecto */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 101;
+    margin-top: -4px;
+}
+
+/* Estilo para Firefox */
+input[type="range"]::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 101;
+    margin-top: -4px;
+}
+
+/* Estilo para IE */
+input[type="range"]::-ms-thumb {
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 101;
+    margin-top: -4px;
+}
+
+/* Mostrar el círculo solo en hover */
+input[type="range"]:hover::-webkit-slider-thumb {
+    background: white;
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+    background: white;
+}
+
+input[type="range"]:hover::-ms-thumb {
+    background: white;
+}
+
+/* Eliminar estilos por defecto de relleno para evitar conflictos */
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+}
+
+/* Estilo para la barra de progreso */
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 2px;
+    background: transparent;
+}
+
+/* Para Firefox */
+input[type="range"]::-moz-range-track {
+    height: 2px;
+    background: transparent;
+}
+
+/* Para IE */
+input[type="range"]::-ms-track {
+    height: 2px;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+/* Ocultar el círculo por defecto */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 101;
+    margin-top: -4px;
+}
+
+/* Estilo para Firefox */
+input[type="range"]::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 101;
+    margin-top: -4px;
+}
+
+/* Estilo para IE */
+input[type="range"]::-ms-thumb {
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 101;
+    margin-top: -4px;
+}
+
+/* Mostrar el círculo solo en hover */
+input[type="range"]:hover::-webkit-slider-thumb {
+    background: white;
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+    background: white;
+}
+
+input[type="range"]:hover::-ms-thumb {
+    background: white;
+}
+
+/* Eliminar estilos por defecto de relleno para evitar conflictos */
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+}
+
+/* Estilo para la barra de volumen */
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 2px;
+    background: transparent;
+}
+
+/* Para Firefox */
+input[type="range"]::-moz-range-track {
+    height: 2px;
+    background: transparent;
+}
+
+/* Para IE */
+input[type="range"]::-ms-track {
+    height: 2px;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
